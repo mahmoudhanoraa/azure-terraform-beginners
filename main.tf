@@ -12,7 +12,7 @@
 # The latest version of the Azure provider breaks backward compatibility.
 # TODO: Update this code to use the latest provider.
 provider "azurerm" {
-  version = "~> 1.34.0"
+  version = "~>2.0"
   features {}
 }
 
