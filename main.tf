@@ -19,7 +19,7 @@ resource "azurerm_app_service_plan" "tf_azure_guide" {
   }
 }
 
-resource "azurerm_app_service" "example" {
+resource "azurerm_app_service" "tf_azure_guide" {
   name                = "ex"
   location            = "${var.resource_group_location}"
   resource_group_name = "${var.resource_group_name}"
