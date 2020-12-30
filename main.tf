@@ -20,7 +20,7 @@ resource "azurerm_app_service_plan" "tf_azure_guide" {
 }
 
 resource "azurerm_app_service" "tf_azure_guide" {
-  name                = "ex"
+  name                = "ex_hanora_hanora"
   location            = "${var.resource_group_location}"
   resource_group_name = "${var.resource_group_name}"
   app_service_plan_id = azurerm_app_service_plan.tf_azure_guide.id
